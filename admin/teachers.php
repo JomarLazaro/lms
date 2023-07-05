@@ -24,9 +24,12 @@
 										<thead>
 										    <tr>
                                     <th></th>
+                                    <th>ID</th>
                                     <th>Photo</th>
-                                    <th>Name</th>
-                                    <th>Username</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Password</th>
+                             
 
                                     <th></th>
                                 </tr>
@@ -42,16 +45,16 @@
 										<td width="30">
 										<input id="optionsCheckbox" class="uniform_on" name="selector[]" type="checkbox" value="<?php echo $id; ?>">
 										</td>
+
+                                    <td><?php echo $row['teacher_id'];?></td>     
                                     <td width="40"><img class="img-circle" src="<?php echo $row['location']; ?>" height="50" width="50"></td> 
-                                    <td><?php echo $row['firstname'] . " " . $row['lastname']; ?></td> 
-                                    <td><?php echo $row['username']; ?></td> 
+                                    <td><?php echo $row['firstname']; ?></td>
+                                    <td><?php echo $row['lastname']; ?></td> 
+                                    <td><?php echo $row['password']; ?></td> 
+                                   
                                
 									<td width="50"><a href="edit_teacher.php<?php echo '?id='.$id; ?>" class="btn btn-success"><i class="icon-pencil"></i></a></td>
-									<?php if ($teacher_stat == 'Activated' ){ ?>
-									<td width="120"><a href="de_activate.php<?php echo '?id='.$id; ?>" class="btn btn-danger"><i class="icon-remove"></i> Deactivate</a></td>
-									<?php }else{ ?>
-									<td width="120"><a href="edit_teacher.php<?php echo '?id='.$id; ?>" class="btn btn-success"><i class="icon-check"></i> Activated</a></td>				
-									<?php } ?>
+							
                                 </tr>
                             <?php } ?>
                                
