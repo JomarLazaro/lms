@@ -44,6 +44,12 @@
                                             <input  name="ln" class="input focused" id="focusedInput" type="text" placeholder = "Lastname" required>
                                           </div>
                                         </div>
+
+										<div class="control-group">
+                                          <div class="controls">
+                                            <input  name="pw" class="input focused" id="focusedInput" type="text" placeholder = "Password" required>
+                                          </div>
+                                        </div>
 								
 										
 											<div class="control-group">

@@ -54,7 +54,7 @@
 											where class_subject_overview.teacher_class_id = '$get_id'")or die(mysqli_error());
 											$row_subject = mysqli_fetch_array($query); 
 										?>
-										<?php echo isset($row_subject['content']) ? $row_subject['content'] : 'comment: palitan nyo ito kung anong path yung ginamit nyo'; ?>
+										<?php echo isset($row_subject['content']) ? $row_subject['content'] : ''; ?>
                                 </div>
                             </div>
                         </div>

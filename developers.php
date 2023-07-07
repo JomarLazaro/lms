@@ -13,21 +13,21 @@
                             <div class="block-content collapse in">
 							<h3>Developers</h3>
 							<hr>
-                                <div class="span3">
+                                <div class="span4">
 										<center>
 										<hr>
 										<p>Name: John Dreckxelle Torres</p>
 									
 										</center>
 								</div>
-                                <div class="span3">
+                                <div class="span4">
 															<center>
 								<hr>
 																				<p>Name: Jovelyn Calina</p>
 
 								</center>
 								</div>
-                                <div class="span3">
+                                <div class="span4">
 															<center>
 				
 								<hr>
@@ -35,7 +35,7 @@
 									
 								</center>
 								</div>
-                                <div class="span3">
+                                <div class="span4">
 															<center>
 							
 								<hr>

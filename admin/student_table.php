@@ -1,4 +1,4 @@
-<?php include('dbcon.php'); ?>
+	<?php include('dbcon.php'); ?>
 	<form action="delete_student.php" method="post">
 	<table cellpadding="0" cellspacing="0" border="0" class="table" id="example">
 	<a data-toggle="modal" href="#student_delete" id="delete"  class="btn btn-danger" name=""><i class="icon-trash icon-large"></i></a>

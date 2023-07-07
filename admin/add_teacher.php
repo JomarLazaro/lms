@@ -44,6 +44,11 @@
                                           </div>
                                         </div>
 										
+                  <div class="control-group">
+                                      <div class="controls">
+                                        <input class="input focused" name="password" id="focusedInput" type="text" placeholder = "Password">
+                                      </div>
+                  </div>
 										
 									
 											<div class="control-group">
@@ -65,6 +70,7 @@
                            
                                 $firstname = $_POST['firstname'];
                                 $lastname = $_POST['lastname'];
+                                $password = $_POST['password'];
                                 $department_id = $_POST['department'];
 								
 								
@@ -78,8 +84,8 @@
 								<?php
 								}else{
 
-                                mysqli_query($conn,"insert into teacher (firstname,lastname,location,department_id)
-								values ('$firstname','$lastname','uploads/NO-IMAGE-AVAILABLE.jpg','$department_id')         
+                                mysqli_query($conn,"insert into teacher (firstname,lastname,password,location,department_id)
+								values ('$firstname','$lastname','$password','uploads/NO-IMAGE-AVAILABLE.jpg','$department_id')         
 								") or die(mysqli_error()); ?>
 								<script>
 							 	window.location = "teachers.php"; 
